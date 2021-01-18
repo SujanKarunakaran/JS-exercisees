@@ -1,2 +1,2 @@
-# JS-exercisees
+# JS-exercises
 uki exercises

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+
+<script>
+var day;
+switch (new Date().getMonth()) {
+  case 0:
+    day = "Jan";
+    break;
+  case 1:
+    day = "Feb";
+    break;
+  case 2:
+    day = "Mar";
+    break;
+  case 3:
+    day = "Apr";
+    break;
+  case 4:
+    day = "May";
+    break;
+  case 5:
+    day = "June";
+    break;
+  case  6:
+    day = "July";
+    break;
+  case  7:
+    day = "Aug";
+    break;
+  default:
+    day = "hii";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+document.getElementById("demo1").innerHTML = new Date();
+
+</script>
+
+</body>
+</html>
